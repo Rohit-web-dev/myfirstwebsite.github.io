@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOOTSTRAP 4</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar-brand">
+  <a class="navbar-brand" href="#" id="logo">Rohit Kumar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Technical Skill
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">C & C++</a>
+          <a class="dropdown-item" href="#">Web Development</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">MS Office</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Next Technology Coming Soon...</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search-btn">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div id="demo" class="carousel slide mt-5" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/07.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Rohit kumar.</h3>
+        <p>I am Web Developer.</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/08.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+       <h3>Rohit kumar.</h3>
+        <p>I am Web Developer.</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/09.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+       <h3>Rohit kumar.</h3>
+        <p>I am Web Developer.</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+  </a>
+</div>
+
+	</header>
+
+	<!-- ================About================ -->
+
+	<section>
+		
+		<div class="container">
+			<h1 class="text-center text-capitalize pt-5 display-4">about us</h1>
+			<hr class="w-25 mx-auto pb-5">
+
+			<div class="row mb-5">
+				<div class="col-lg-6 col-md-6 col-12 mt-3">
+					<img src="images/05.jpg" class="img-fluid">
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-12 mt-3">
+					<h1>Who am I?</h1>
+					<hr>
+					<p>Complete Bootstrap Carousel Reference
+                    For a complete reference of all carousel options, methods and events, go to our Bootstrap JS Carousel Reference. Adds indicators for the carousel. These are the little dots at the bottom of each slide (which indicates how many slides there are in the carousel, and which slide the user are currently viewing).</p>
+                    <button class="btn bg-primary text-white display-4" id="wkm">wanna know me</button>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- ================End About============== -->
+	<!-- ===============Services=============== -->
+          <section>
+          	<div class="container">
+			 <h1 class="text-center text-capitalize pt-5 display-3">Services</h1>
+			 <hr class="w-25 mx-auto pb-5">
+              
+             <div class="row text-center">
+
+             <div class="col-lg-3 col-md-3 col-12 mt-3">
+			 <div class="card">
+             <img class="card-img-top" src="images/01.jpeg" alt="Card image" style="height: 300px;">
+             <div class="card-body">
+             <h4 class="card-title">Rohit Kumar</h4>
+             <p class="card-text">I am a Web Developer.</p>
+             <a href="#" class="btn btn-primary" id="sp">See Profile</a>
+             </div>
+             </div>
+             </div>
+
+             <div class="col-lg-3 col-md-3 col-12 mt-3">
+			 <div class="card">
+             <img class="card-img-top" src="images/01.jpeg" alt="Card image" style="height: 300px;">
+             <div class="card-body">
+             <h4 class="card-title">Rohit Kumar</h4>
+             <p class="card-text">I am a Web Developer.</p>
+             <a href="#" class="btn btn-primary" id="sp">See Profile</a>
+             </div>
+             </div>
+             </div>
+
+             <div class="col-lg-3 col-md-3 col-12 mt-3">
+			 <div class="card">
+             <img class="card-img-top" src="images/01.jpeg" alt="Card image" style="height: 300px;">
+             <div class="card-body">
+             <h4 class="card-title">Rohit Kumar</h4>
+             <p class="card-text">I am a Web Developer.</p>
+             <a href="#" class="btn btn-primary" id="sp">See Profile</a>
+             </div>
+             </div>
+             </div>
+
+             <div class="col-lg-3 col-md-3 col-12 mt-3">
+			 <div class="card">
+             <img class="card-img-top" src="images/01.jpeg" alt="Card image" style="height: 300px;">
+             <div class="card-body">
+             <h4 class="card-title">Rohit Kumar</h4>
+             <p class="card-text">I am a Web Developer.</p>
+             <a href="#" class="btn btn-primary" id="sp">See Profile</a>
+             </div>
+             </div>
+             </div>
+
+            </div>
+		    </div>
+          </section>
+	<!-- ==============End Services============== -->
+	<!-- ==============Cotact============= -->
+              
+              <section class="bg-primary my-5">
+              	<article class="text-center py-5">
+              		<div>
+              			<h1 class="display-4">+91 123-456-9870</h1>
+              			<p>If want to best services call us now.</p>
+              			<button class="btn btn-warning" id="sp">Contact</button>
+              		</div>
+              	</article>
+              </section>
+
+	<!-- ============End Contact============ -->
+	<!-- ==============Gallery============ -->
+
+             <section>
+             <div class="container">
+			 <h1 class="text-center text-capitalize pt-5 display-3">Gallery</h1>
+			 <hr class="w-25 mx-auto pb-5">
+                
+             <div class="row my-5">
+             	<div class="col-lg-4 col-md-4 col-12 mt-3">
+             		<img src="images/02.jpg" class="img-fluid">
+             	</div>
+             	<div class="col-lg-4 col-md-4 col-12 mt-3">
+             		<img src="images/02.jpg" class="img-fluid">
+             	</div>
+             	<div class="col-lg-4 col-md-4 col-12 mt-3">
+             		<img src="images/02.jpg" class="img-fluid">
+             	</div>
+             	<div class="col-lg-4 col-md-4 col-12 mt-3">
+             		<img src="images/03.jpg" class="img-fluid">
+             	</div>
+             	<div class="col-lg-4 col-md-4 col-12 mt-3">
+             		<img src="images/03.jpg" class="img-fluid">
+             	</div>
+             	<div class="col-lg-4 col-md-4 col-12 mt-3">
+             		<img src="images/03.jpg" class="img-fluid">
+             	</div>
+             	</div>
+
+             </div>
+             </section>
+
+	<!-- ==============End Gallery============== -->
+	<!-- ================Form============== -->
+
+	          <section class="bg-primary my-5">
+              	<article class="py-5">
+              		<div class="text-center">
+              			<h1 class="display-4">Want To Join</h1>
+              			<p>Be a part of RK Technical.</p>
+              			<button class="btn btn-warning" data-toggle="modal" data-target="#myModal" id="sp">Join Now</button>
+              		</div>
+                </article>
+
+              		<!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          Modal body..
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+              	
+              </section>
+
+	<!-- ===================End Form================ -->
+
+	<!-- =================Contact Us============== -->
+
+	<section class="my-5">
+		<div class="container">
+			 <h1 class="text-center text-capitalize pt-5 display-3">Contact Us</h1>
+			 <hr class="w-25 mx-auto pb-5">
+
+		<div class="w-50 mx-auto">
+  <form action="/action_page.php">
+  <div class="form-group">
+    <label for="pwd" id="contact-sec">Enter Your Name:</label>
+    <input type="text" class="form-control" placeholder="Enter Your Name" id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="email" id="contact-sec">Email address:</label>
+    <input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off">
+  </div>
+   <div class="form-group">
+    <label for="mobile" id="contact-sec">Mobile Number:</label>
+    <input type="Number" class="form-control" placeholder="Enter Mobile Number" id="mobile" autocomplete="off">
+  </div>
+   <div class="form-group">
+    <label for="massage" id="contact-sec">Massage:</label>
+    <textarea class="form-control" id="massage"></textarea>
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="contact-sec"> 00 Remember
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary  my-5" id="sp">Send</button>
+</form>
+</div>	 
+      
+    </div>
+	</section>
+
+	<!-- ==================Contact Us================= -->
+	<!-- ===========Footer============ -->
+
+	<footer>
+		<p class="text-center bg-dark text-white">@copyright Rohit Kumar 2021</p>
+	</footer>
+
+	<!-- ==============End Footer=========== -->
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+ </body>
+</html>
